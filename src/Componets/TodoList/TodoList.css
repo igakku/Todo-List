@@ -1,0 +1,28 @@
+.TodoList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.todo-text{
+    padding-left: 17px;
+    color: #404040;
+    font-size:  25px;
+    font-weight: 500;
+}
+.wrong{
+    gap: 10px;
+    font-size: 20px; 
+    cursor: pointer;
+    padding-right: 25px;
+}
+
